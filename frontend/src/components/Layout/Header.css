@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.nav-bar ul 
+{
+    display: flex;
+    
+}
+.nav-bar ul li
+{
+    list-style: none;
+    padding: auto;
+    margin: 10px;
+    font-family: Roboto;
+    color: white;
+}
+.nav-bar
+{
+    background-color: rgb(22, 22, 22);
+}

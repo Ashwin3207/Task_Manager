@@ -1,0 +1,9 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body
+{
+  background-image: linear-gradient(black,white);
+  background-repeat: no-repeat;
+}
