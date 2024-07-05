@@ -4,12 +4,14 @@ import Header from './Header.jsx'
 
 const Layout = ({children}) => {
   return (
-    <div className='body'>
-    <Header></Header>
-    {children}
-    <Footer></Footer>
+<div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow min-h-[80vh]">
+        {children}
+      </main>
+      <Footer />
     </div>
   )
 }
 
-export default Layout
+export default Layout;

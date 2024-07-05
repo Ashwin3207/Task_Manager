@@ -1,13 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
+import Tasks from '../components/Tasks'
 const Homepage = () => {
   return (
     <Layout>
-      <h1>
-        Homepage
-      </h1>
+
     </Layout>
   )
 }
 
-export default Homepage
+export default Homepage;

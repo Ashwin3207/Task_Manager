@@ -2,6 +2,7 @@
 .nav-bar ul 
 {
     display: flex;
+    margin: auto;
     
 }
 .nav-bar ul li
@@ -11,8 +12,11 @@
     margin: 10px;
     font-family: Roboto;
     color: white;
+    text-decoration: none;
 }
 .nav-bar
 {
     background-color: rgb(22, 22, 22);
+    display: flex;
+    
 }
